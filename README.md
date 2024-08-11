@@ -19,21 +19,33 @@ The script will skip over these episodes accordingly.
  ### Usage
  I have created a directory structure with how Plex would need for the show. Within each season sub-directory there is each season's download script. When the script is ran, episodes will be placed in that season's directory. 
 
+ There are both .ps1 and .sh scripts for Windows and Linux systems, respectively. Use accordingly to your OS.
+
  For example:
 
  ```
    - The Drew Carey Show
     - Season 1
       - yt-dlp-drew-carey-season-1.ps1
+      - yt-dlp-drew-carey-season-1.sh
     - Season 2
       - yt-dlp-drew-carey-season-2.ps1
+      - yt-dlp-drew-carey-season-2.sh
     - Season 3
       ...
  ```
 
  Once you have adjusted each script's token, open powershell, `cd` to that season's directory, and run the appropriate command to run the file. e.g. for Season 1:
 
+*Powershell*
  ``` powershell
  cd "your\path\to\The Drew Carey Show\Season 1"
  ./yt-dlp-drew-carey-season-1.ps1
  ```
+
+ *Bash*
+ ``` bash
+ cd /your/path/to/The\ Drew\ Carey\ Show/Season\ 1/
+ bash ./yt-dlp-drew-carey-season-1.sh
+ ``` 
+    ...or you could `chmod +x` each `.sh` file and run `./yt-dlp-drew-carey-season-X.sh`
