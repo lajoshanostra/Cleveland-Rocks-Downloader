@@ -48,4 +48,5 @@ The script will skip over these episodes accordingly.
  cd /your/path/to/The\ Drew\ Carey\ Show/Season\ 1/
  bash ./yt-dlp-drew-carey-season-1.sh
  ``` 
-    ...or you could `chmod +x` each `.sh` file and run `./yt-dlp-drew-carey-season-X.sh`
+
+...or you could `chmod +x` each `.sh` file and run `./yt-dlp-drew-carey-season-X.sh`
