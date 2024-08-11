@@ -12,7 +12,7 @@ The script will skip over these episodes accordingly.
 
 ### Pre-requisites
 
- - [yt-dlp](https://github.com/yt-dlp/yt-dlp) download and set appropriately in your system PATH
+ - [yt-dlp](https://github.com/yt-dlp/yt-dlp) installed and set appropriately in your system PATH
  - Your Plex token. You can retrieve it using the following instructions: [Finding your Plex Authentication Token](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/)
  - Once your Plex token is retrieve, please enter it in the `$plexToken` variable at the top of each script.
 
